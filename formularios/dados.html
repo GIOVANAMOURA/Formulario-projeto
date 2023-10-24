@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atualização de dados</title>
+
+  <link type="image/png" sizes="32x32" rel="icon" href="assets/img/icons8-morcego-32.png">
+
+  <script src="../assets/js/dados.js" defer></script>
+  <script src="../assets/js/fetch-dados.js" defer></script>
+
+  <link rel="stylesheet" href="dados.css">
+  <link type="image/png" sizes="32x32" rel="imageIcon" href="Icone">
+
+
+</head>
+<body>
+  <main class="container-perfil">
+    <div class="titulo">
+      <h1>Atualização de dados</h1>
+      <br>
+    </div>
+
+
+    <form action="" method="post">
+    <div class="dados-email">
+        <input type="Confirme seu e-mail:" name="Confirme seu e-mail:" id="Confirme seu e-mail:" placeholder="Confirme seu e-mail:" maxlength="100" minlength="15" required>
+      </div>
+    
+      <div class="info-dados">
+        <p>Dados pessoais:</p>
+        <br>
+      </div>
+
+      <form action="" method="post">
+        <div class="atualizacao">
+            <input type="Nome completo" name="Nome completo" id="Nome completo" placeholder="Nome completo:" maxlength="100" minlength="15" required><br>
+            <input type="CPF" name="CPF" id="CPF" placeholder="CPF:" maxlength="100" minlength="15" required>
+            <input type="Peso(kg)" name="Peso(kg)" id="Peso(kg)" placeholder="Peso(kg):" maxlength="100" minlength="15" required><br>
+            <input type="Data de nascimento" name="Data de nascimento" id="Data de nascimento" placeholder="Data de nascimento:" maxlength="100" minlength="15" required><br>
+            <input type="Telefone" name="Telefone" id="Telefone" placeholder="Telefone:" maxlength="100" minlength="15" required>
+            <input type="Tipo sanguíneo" name="Tipo sanguíneo" id="Tipo sanguíneo" placeholder="Tipo sanguíneo:" maxlength="100" minlength="15" required>
+          </div>
+
+          <form action="" method="post">
+            <div class="endereco">
+                <input type="CEP" name="CEP" id="CEP" placeholder="CEP:" maxlength="100" minlength="15" required><br>
+                <input type="Rua" name="Rua" id="Rua" placeholder="Rua:" maxlength="100" minlength="15" required><br>
+                <input type="Bairro" name="Bairro" id="Bairro" placeholder="Bairro:" maxlength="100" minlength="15" required>
+                <input type="Municipio" name="Municipio" id="Municipio" placeholder="Municipio:" maxlength="100" minlength="15" required><br>
+                <input type="UF" name="UF" id="UF" placeholder="UF:" maxlength="100" minlength="15" required><br>
+                <input type="Complemento" name="Complemento" id="Complemento" placeholder="Complemento:" maxlength="100" minlength="15" required>
+              </div>
+
+      
+    <div>
+      <button>Atualizar<i class="fa-solid"></i></button>
+    </div>
+    
+    <script>
+      var dadosImg = new Image();
+      dadosImg.src = 'dadosImg.png';
+
+      // Defina o estilo de fundo do corpo
+      document.body.style.backgroundImage = 'url(' + dadosImg.src + ')';
+      document.body.style.backgroundSize = 'cover';
+  </script>
+
+</body>
+</html>
