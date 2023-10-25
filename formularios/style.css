@@ -101,7 +101,32 @@
     top: 40;
     left: 40%;
   }
- 
+
+nav {
+    text-align: center; 
+    position: relative; 
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-flex; 
+    margin: 0 95px;  
+    font-size: 85px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0);
+}
+
   p {
     margin-bottom: 50px; /* Adicione margem na parte inferior para pular linhas */
    color-font
