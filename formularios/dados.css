@@ -68,43 +68,43 @@
 
 
   .dados-email{
-     width: 50%;
-    padding: 3%;
-    padding-top: 3rem;
-    border: none;
-    border-radius: 15px;
+    width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
   }
 
   .info-dados{
-    width: 47%;
-    padding: 1%;
-    padding-top: 1rem;
-    border: none;
-    border-radius: 15px;
+    width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
  }
 
  .info-dado{
-  width: 47%;
-  padding: 1%;
-  padding-top: 3rem;
-  border: none;
-  border-radius: 15px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
   .atualizacao{
-    width: 50%;
-    padding: 3%;
-    padding-top: 3rem;
-    border: none;
-    border-radius: 15px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
  }
 
   .endereco{
-    width: 50%;
-    padding: 3%;
-    padding-top: 3rem;
-    border: none;
-    border-radius: 15px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
   }
 
   form button {
@@ -124,6 +124,11 @@
   }
   form button:hover {
    background-color: transparent;
+   color: white;
+  }
+  form button i {
+    padding-left: .1rem;
+  }
    color: white;
   }
   form button i {
